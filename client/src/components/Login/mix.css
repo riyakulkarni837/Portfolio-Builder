@@ -1,0 +1,241 @@
+section{
+    width: 100%;
+    padding: 10px;
+    min-height:calc(100vh - 80px);
+}
+
+section .form_data{
+    max-width: 550px;
+    margin: 25px auto;
+    padding: 35px 10px;
+    box-shadow: 0 0 15px -10px #2d3748;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form_heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form_data h1{
+    font-size: 34px;
+    color: #2a4365;
+}
+
+.form_data p{
+    color: #718096;
+    font-size: 15px;
+    margin-top:9px;
+}
+
+.form_data form{
+    margin-top: 45px;
+    width: 100%;
+    padding: 10px 50px;
+}
+
+.form_data form .form_input input{
+    width: 100%;
+    padding: 11px;
+    border: 1px solid #d4d0d0;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 14px;
+    margin-top: 9px;
+    font-size: 14px;
+    
+}
+
+.form_data form .form_input label{
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.form_input .two{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.form_data form .form_input input:focus{
+    border:2px solid rgba(66, 153, 225,0.6);
+}
+
+
+.form_data form .form_input input::placeholder{
+    color: #8694a8;
+    letter-spacing: .5px;
+    font-size: 14px;
+}
+
+.form_input .showpass{
+    position: absolute;
+    right: 0;
+    top:1px;
+    padding: 7px 10px;
+    margin-right: 5px;
+    margin-top: 12px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #2a4365;
+    background-color: #EDF2F7;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form .btn{
+    display:block;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color:#1a365d;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+
+form .btn:hover{
+    background-color: #97a1b1;
+}
+
+.form_data form p{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.form_data form a{
+    text-decoration: none;
+    color:#718096 ;
+    border-bottom: 2px solid #8694a8;
+}
+
+.login-with-google-btn {
+    display:block;
+    width: 80%;
+    padding: 15px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: #fff;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: all .3s;
+    box-shadow: 0 -1px 0 rgba(0, 0, 0, .04), 0 1px 1px rgba(0, 0, 0, .25);
+    
+    color: #757575;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+    
+    background-image: url(data:image/svg+xml,%3c%3fxml version='1.0' %3f%3e%3c!-- Uploaded to: SVG Repo%2c www.svgrepo.com%2c Generator: SVG Repo Mixer Tools --%3e %3csvg width='30px' height='30px' viewBox='0 0 32 32' data-name='Layer 1' id='Layer_1' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M23.75%2c16A7.7446%2c7.7446%2c0%2c0%2c1%2c8.7177%2c18.6259L4.2849%2c22.1721A13.244%2c13.244%2c0%2c0%2c0%2c29.25%2c16' fill='%2300ac47'/%3e%3cpath d='M23.75%2c16a7.7387%2c7.7387%2c0%2c0%2c1-3.2516%2c6.2987l4.3824%2c3.5059A13.2042%2c13.2042%2c0%2c0%2c0%2c29.25%2c16' fill='%234285f4'/%3e%3cpath d='M8.25%2c16a7.698%2c7.698%2c0%2c0%2c1%2c.4677-2.6259L4.2849%2c9.8279a13.177%2c13.177%2c0%2c0%2c0%2c0%2c12.3442l4.4328-3.5462A7.698%2c7.698%2c0%2c0%2c1%2c8.25%2c16Z' fill='%23ffba00'/%3e%3cpolygon fill='%232ab2db' points='8.718 13.374 8.718 13.374 8.718 13.374 8.718 13.374'/%3e%3cpath d='M16%2c8.25a7.699%2c7.699%2c0%2c0%2c1%2c4.558%2c1.4958l4.06-3.7893A13.2152%2c13.2152%2c0%2c0%2c0%2c4.2849%2c9.8279l4.4328%2c3.5462A7.756%2c7.756%2c0%2c0%2c1%2c16%2c8.25Z' fill='%23ea4435'/%3e%3cpolygon fill='%232ab2db' points='8.718 18.626 8.718 18.626 8.718 18.626 8.718 18.626'/%3e%3cpath d='M29.25%2c15v1L27%2c19.5H16.5V14H28.25A1%2c1%2c0%2c0%2c1%2c29.25%2c15Z' fill='%234285f4'/%3e%3c/svg%3e);
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: 12px 11px;
+    
+    &:hover {
+      box-shadow: 0 -1px 0 rgba(0, 0, 0, .04), 0 2px 4px rgba(0, 0, 0, .25);
+    }
+    
+    &:active {
+      background-color: #eeeeee;
+    }
+    
+    &:focus {
+      outline: none;
+      box-shadow: 
+        0 -1px 0 rgba(0, 0, 0, .04),
+        0 2px 4px rgba(0, 0, 0, .25),
+        0 0 0 3px #c8dafc;
+    }
+  
+  }
+  .login-with-github-btn {
+    display:block;
+    width: 80%;
+    padding: 15px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: #fff;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: all .3s;
+    box-shadow: 0 -1px 0 rgba(0, 0, 0, .04), 0 1px 1px rgba(0, 0, 0, .25);
+    
+    color: #757575;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+    
+    background-image: url(data:image/svg+xml,%3c%3fxml version='1.0' encoding='utf-8'%3f%3e%3c!-- Uploaded to: SVG Repo%2c www.svgrepo.com%2c Generator: SVG Repo Mixer Tools --%3e %3csvg fill='black' width='30px' height='30px' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M22%2c12.247a10%2c10%2c0%2c0%2c1-6.833%2c9.488c-.507.1-.687-.214-.687-.481%2c0-.328.012-1.407.012-2.743a2.386%2c2.386%2c0%2c0%2c0-.679-1.852c2.228-.248%2c4.566-1.093%2c4.566-4.935a3.859%2c3.859%2c0%2c0%2c0-1.028-2.683%2c3.591%2c3.591%2c0%2c0%2c0-.1-2.647s-.838-.269-2.747%2c1.025a9.495%2c9.495%2c0%2c0%2c0-5.007%2c0c-1.91-1.294-2.75-1.025-2.75-1.025a3.6%2c3.6%2c0%2c0%2c0-.1%2c2.647A3.864%2c3.864%2c0%2c0%2c0%2c5.62%2c11.724c0%2c3.832%2c2.334%2c4.69%2c4.555%2c4.942A2.137%2c2.137%2c0%2c0%2c0%2c9.54%2c18a2.128%2c2.128%2c0%2c0%2c1-2.91-.831A2.1%2c2.1%2c0%2c0%2c0%2c5.1%2c16.142s-.977-.013-.069.608A2.646%2c2.646%2c0%2c0%2c1%2c6.14%2c18.213s.586%2c1.944%2c3.368%2c1.34c.005.835.014%2c1.463.014%2c1.7%2c0%2c.265-.183.574-.683.482A10%2c10%2c0%2c1%2c1%2c22%2c12.247Z'/%3e%3c/svg%3e);
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: 12px 11px;
+    
+    &:hover {
+      box-shadow: 0 -1px 0 rgba(0, 0, 0, .04), 0 2px 4px rgba(0, 0, 0, .25);
+    }
+    
+    &:active {
+      background-color: #eeeeee;
+    }
+    
+    &:focus {
+      outline: none;
+      box-shadow: 
+        0 -1px 0 rgba(0, 0, 0, .04),
+        0 2px 4px rgba(0, 0, 0, .25),
+        0 0 0 3px #c8dafc;
+    }
+  
+  }
+  .login-with-linkedin-btn {
+    display:block;
+    width: 80%;
+    padding: 15px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: #fff;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: all .3s;
+    box-shadow: 0 -1px 0 rgba(0, 0, 0, .04), 0 1px 1px rgba(0, 0, 0, .25);
+    
+    color: #757575;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+    
+    background-image: url(data:image/svg+xml,%3c%3fxml version='1.0' encoding='utf-8'%3f%3e %3c!-- Uploaded to: SVG Repo%2c www.svgrepo.com%2c Generator: SVG Repo Mixer Tools --%3e %3csvg width='30px' height='30px' viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3e%3cg fill='none'%3e%3cpath d='M0 18.338C0 8.216 8.474 0 18.92 0h218.16C247.53 0 256 8.216 256 18.338v219.327C256 247.79 247.53 256 237.08 256H18.92C8.475 256 0 247.791 0 237.668V18.335z' fill='%23069'/%3e%3cpath d='M77.796 214.238V98.986H39.488v115.252H77.8zM58.65 83.253c13.356 0 21.671-8.85 21.671-19.91-.25-11.312-8.315-19.915-21.417-19.915-13.111 0-21.674 8.603-21.674 19.914 0 11.06 8.312 19.91 21.169 19.91h.248zM99 214.238h38.305v-64.355c0-3.44.25-6.889 1.262-9.346 2.768-6.885 9.071-14.012 19.656-14.012 13.858 0 19.405 10.568 19.405 26.063v61.65h38.304v-66.082c0-35.399-18.896-51.872-44.099-51.872-20.663 0-29.738 11.549-34.78 19.415h.255V98.99H99.002c.5 10.812-.003 115.252-.003 115.252z' fill='white'/%3e%3c/g%3e%3c/svg%3e); 
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: 12px 11px;
+    
+    &:hover {
+      box-shadow: 0 -1px 0 rgba(0, 0, 0, .04), 0 2px 4px rgba(0, 0, 0, .25);
+    }
+    
+    &:active {
+      background-color: #eeeeee;
+    }
+    
+    &:focus {
+      outline: none;
+      box-shadow: 
+        0 -1px 0 rgba(0, 0, 0, .04),
+        0 2px 4px rgba(0, 0, 0, .25),
+        0 0 0 3px #c8dafc;
+    }
+  
+  }
